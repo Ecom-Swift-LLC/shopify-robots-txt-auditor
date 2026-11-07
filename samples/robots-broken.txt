@@ -1,0 +1,23 @@
+# Planted mistakes, one per line of the README example.
+Disallow: /tmp-old
+
+User-agent: *
+Disallow: /collections/
+Allow: /collections/best-sellers
+Disallow: /cdn/
+Disallow: products/hidden
+Dissallow: /pages/old
+Noindex: /pages/thank-you
+
+User-agent: Googlebot
+Crawl-delay: 30
+Disallow: /blogs/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: /sitemap.xml
+Sitemap: http://shop-name.myshopify.com/sitemap.xml

@@ -1,0 +1,18 @@
+# A shortened file in the shape of Shopify's default robots.txt.
+# Real stores have more rules (and Shopify may change them); this one is for the examples and tests.
+
+User-agent: *
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkout
+Disallow: /checkouts/
+Disallow: /account
+Disallow: /collections/*sort_by*
+Disallow: /search
+Disallow: /policies/
+
+User-agent: Nutch
+Disallow: /
+
+Sitemap: https://example-store.com/sitemap.xml

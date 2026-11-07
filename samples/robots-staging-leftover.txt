@@ -1,0 +1,3 @@
+# The classic: a development setting that shipped to production.
+User-agent: *
+Disallow: /

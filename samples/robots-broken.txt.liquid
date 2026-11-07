@@ -1,0 +1,10 @@
+{%- for group in robots.default_groups -%}
+  {%- for rule in group.rules -%}
+    {%- unless rule.directive == 'Disallow' and rule.value == '/checkout' -%}
+      {{ rule }}
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- if group.user_agent.value == '*' -%}
+Disallow: /
+  {%- endif -%}
+{% endfor %}

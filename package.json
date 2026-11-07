@@ -1,0 +1,40 @@
+{
+  "name": "shopify-robots-txt-auditor",
+  "version": "1.0.0",
+  "description": "Audits a Shopify store's robots.txt and robots.txt.liquid: finds accidental site-wide blocks, blocked collections, missing sitemap, crawlable cart and checkout, bad syntax, and answers 'can Googlebot fetch this path?'",
+  "license": "MIT",
+  "author": "Ecom Swift LLC",
+  "bin": {
+    "srta": "bin/srta.js"
+  },
+  "main": "lib/audit.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "samples"
+  ],
+  "keywords": [
+    "shopify",
+    "robots-txt",
+    "robots-txt-liquid",
+    "seo",
+    "crawling",
+    "technical-seo",
+    "audit",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecom-Swift-LLC/shopify-robots-txt-auditor.git"
+  },
+  "homepage": "https://github.com/Ecom-Swift-LLC/shopify-robots-txt-auditor",
+  "bugs": {
+    "url": "https://github.com/Ecom-Swift-LLC/shopify-robots-txt-auditor/issues"
+  }
+}
